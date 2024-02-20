@@ -29,4 +29,22 @@ return 142;
 
 }
 
+public Integer codigoDeLaCuenta(String nombre) {
+    switch (nombre) {
+        case "PROVISIONES PARA RIESGOS Y GASTOS":
+        return 14;
+        case "OBLIGACIONES Y BONOS":
+        return 150;
+        case "PROVISIÓN PARA RESPONSABILIDADES":
+        return 142;
+        case "MERCADERIAS":
+        return 300;
+            
+            break;
+    
+        default:
+            break;
+    }
+}
+
 
