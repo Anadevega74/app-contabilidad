@@ -19,3 +19,14 @@ public class CuentaContable {
 
     }
 }
+
+public Integer codigoDeLaCuenta(String nombre) {
+    if (nombre == n"PROVISIONES PARA RIESGOS Y GASTOS") {
+    return 14;
+}
+
+return 142;
+
+}
+
+

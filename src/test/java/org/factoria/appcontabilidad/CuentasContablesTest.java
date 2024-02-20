@@ -2,6 +2,8 @@ package org.factoria.appcontabilidad;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.beans.Transient;
+
 import org.junit.jupiter.api.Test;
 
 public class CuentasContablesTest {
@@ -21,3 +23,8 @@ public class CuentasContablesTest {
     }
 
 }
+@Test
+
+public void devuelve_el_código_de_una_cuenta() {
+        CuentaContable c = new CuentaContable();
+        assertEquals(expected:14, c.codigoDeLaCuenta("PROVISIONES PARA RIESGOS Y GASTOS"); 
